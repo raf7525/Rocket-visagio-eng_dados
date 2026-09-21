@@ -285,7 +285,7 @@ Nomes de pessoas e de produtoras formam um domínio **aberto e ilimitado**, ent�
 | Descarta valor puramente numérico | Valor deslocado de outra coluna |
 | Exige ao menos uma letra | Elimina pontuação e símbolos soltos |
 | Exige início com letra maiúscula | Fragmentos de sinopse tipicamente começam em minúscula |
-| Limita a 80 caracteres e 10 palavras | Nome é rótulo, não frase |
+| Limita a 50 caracteres e 6 palavras | Nome é rótulo, não frase |
 | Descarta valores com `?` ou `!` | Pontuação de frase não ocorre em nome próprio nem em razão social |
 
 Os limites de tamanho foram calibrados empiricamente. Com o corte inicial em 50 caracteres e 6 palavras, nomes institucionais legítimos como *Helsinki Metropolia University of Applied Sciences* e *National Film Development Corporation of India* estavam sendo eliminados. Os valores atuais preservam esses casos.
